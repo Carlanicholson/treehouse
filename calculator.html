@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<form action="Calculator.php" method="post" >
+    <div>
+        <label for="first_name">First name:</label>
+        <input type="text" name="first_name" id="first_name">
+    </div>
+    <div>
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last_name">
+    </div>
+    <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="other">Other
+    </div>
+
+<div>
+<label for="day_coffees">Number of coffees per day:</label>
+<input type="text" name="day_coffees" id="day_coffees">
+</div>
+<div>
+<label for="days_per_week">Number of days in the week:</label>
+<select name="days_per_week" id="days_per_week">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+</select>
+</div>
+<button type="submit">Calculate</button>
+</form>
+
+<form action="Calculator.php" method="post">
+
+
+</form>
+</body>
+</html>

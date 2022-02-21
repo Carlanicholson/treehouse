@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="text-black">
+<div>
+    <header class="bg-gray-400">
+        <h1 class="flex justify-center text-7xl pt-8 font-extrabold">Contact Form</h1>
+        <p class="flex justify-center text-1xl p-2">Fill out the form and let us know your favourite!</p>
+        <nav>
+            <ul class="text-black flex flex-col sm:flex-row space-x-4 justify-center  text-2xl">
+                <li><a class="hover:text-white" href="index.html">Home</a></li>
+                <li><a class="hover:text-white" href="page1.html">About</a></li>
+                <li><a class="hover:text-white" href="#Articles">Articles</a></li>
+                <li><a class="hover:text-white" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+</div>
+<div class="max-w-4xl mx-auto border-2 border-yellow-300 my-14 p-6 bg-gray-300 rounded-2xl shadow-xl">
+    <div class="justify-center"> Please fill out the contact form</div>
+<div class="h-0.5 bg-white my-2"></div>
+    <form action="./process_form.php" method="post" class="space-y-6">
+        <div>
+            <label for="contact_name">Contact Name</label>
+            <div>
+                <input type="text" name="contact_name" id="contact_name" class="border-gray border-2 w-1/2">
+            </div>
+        </div>
+        <div>
+            <label for="contact_email">Contact Email</label>
+            <div>
+                <input type="email" name="contact_email" id="contact_email" class="border-gray border-2 w-1/2">
+            </div>
+        </div>
+        <div>
+            <label for="favourite_biscuit">Favourite biscuit</label>
+            <div>
+                <select name="favourite_biscuit" id="favourite_biscuit">
+                    <option value="hobnob">Hobnob</option>
+                    <option value="digestives">Digestives</option>
+                    <option value="custard_creams">Custard Cream</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" class="bg-green-600 text-white px-5 py-3 text-md rounded-lg">
+            Send message
+        </button>
+    </form>
+</div>
+<img class=  "w-full h-64 object-cover" src="https://s3.favim.com/orig/43/bampw-black-and-white-space-stars-universe-Favim.com-364091.jpg">
+<div class="bg-gray-300 flex flex col md:flex-row pl-6 justify-evenly">
+    <section id="Contact">
+        <h3 class="underline1 heading text-2xl">Contact</h3>
+        <p><strong>Email:</strong> <a class="hover:text-blue-300" href="mailto:coolvrexperience@gmail.com? subject=Hi there!">coolvrexperience@gmail.com</a></p>
+        <p><strong>Phone:</strong> 555-123-4567</p>
+        <p><strong>Address:</strong></p>
+        <address>
+            Experience VR<br>
+            2017 Virtual way<br>
+            City, State 33437
+        </address>
+    </section>
+    <div>
+        <h3 class="underline1 heading text-2xl flex ">Top VR resources</h3>
+        <ol>
+            <li><a href="#">Learn to create educational experiences in VR</a></li>
+            <li><a href="#">Virtual reality in entertainment</a></li>
+            <li><a href="#">Interact with buildings and products in VR</a></li>
+            <li><a href="#">Use VR for teleconferencing and social media</a></li>
+        </ol>
+    </div>
+</div>
+
+<hr>
+
+<blockquote class="text-center mx-6">
+    "Virtual reality was once the dream of science fiction. But the internet was also once a dream, and so were
+    computers and smartphones. The future is coming." -
+    <footer>
+        - <cite>
+        <a
+                href="https://www.facebook.com/zuck/posts/10101319050523971">Mark Zuckerberg</a></cite>
+    </footer>
+</blockquote>
+</aside>
+
+<footer class="flex justify-center mt-4"><p>&copy;2017 Experience VR, The blog</p></footer>
+</div>
+</body>
+</html>

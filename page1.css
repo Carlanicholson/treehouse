@@ -1,0 +1,18 @@
+.main-picture{
+    border: solid 4px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkslategrey;
+}
+
+footer{
+    background-color: darkslategrey;
+}
